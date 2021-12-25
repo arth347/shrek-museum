@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html{scroll-behavior:smooth;}
+body{background:#005819C7;overflow-x: hidden;}
+li{list-style: none;}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    padding:17px 20px;
+    height:115px;
+    min-width:1275px;
+    background:#041B00;
+}
+
+.ul_dos_links_da_navbar{display: flex;align-items: center;}
+
+
+.links_da_navbar{
+    transition:all 0.35s;
+    padding-left:38px;
+    font-weight:700;
+    font-size:30px;
+    color:white;
+    text-decoration: none;
+}
+
+.links_da_navbar:hover{
+    transition: all 0.35s;
+    color:rgb(0, 255, 13);
+    text-shadow: greenyellow 0px 0px 40px;
+}
+
+.links_da_navbar:active{
+    transition: all 0s;
+    color:rgb(13, 66, 0);
+}
+
+
+/*LOGO*/
+.logo{
+    width: max-content;
+    padding:7px 9px;
+    background-image: radial-gradient(#145902,#145902,#0b3101);
+    border-radius: 100px;
+    border:solid 6px #1B8600;
+}
+
+
+.logo h1{
+   font-size:40px;
+   background: linear-gradient(to top, green,greenyellow);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color:transparent;
+   
+}
+/*LOGO*/
+
+/*contato e loja*/
+
+.contato_e_loja{
+    border-left:solid white 3px;
+    margin-top:10px ;
+    width: 200px;
+    height:60px ;
+}
+
+.contato_e_loja img{border-radius: 50px;}
+
+.contato_e_loja img:hover{
+    transition: all 0.35s;
+    border-radius: 50px;
+    background:radial-gradient(greenyellow,rgb(77, 114, 22)) ;
+    margin-top:10px;
+    height:100px ;
+    box-shadow: #59ff2f 0px 0px 40px;
+}
+
+.contato_e_loja img:active{
+    transition: all 0.35s;
+    background:radial-gradient(rgb(85, 126, 24),rgb(12, 19, 4)) ;
+    border-radius: 100px;
+}
+
+.contato{
+    position:absolute;
+    width: 100px;
+    top:0px;
+    right:100px;
+}
+.contato-txt{
+    display:none;
+    position:absolute;
+    top:80px;
+    right:115px;
+    color:white;
+}
+
+
+.loja{
+    position:absolute;
+    width: 100px;
+    top:0px;
+    right:0px;
+}
+.loja-txt{
+    display:none;
+    position:absolute;
+    top:80px;
+    right:30px;
+    color:white;
+}
+
+
+/*contato e loja*/
+
+/*MENU (ESCONDIDO)*/
+.menu{display: none;}
+/*MENU (ESCONDIDO)*/
+
+/*FOOTER*/
+.footer{
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:90px;
+    min-width:1275px;
+    background:#041B00;
+}
+/*FOOTER*/
+
+/*BOTAO DE VOLTAR (NA PARTE DOS FILMES)*/
+.btn-inicio{
+    position:absolute;
+    margin-top:1%;
+    left:1%;
+}
+.btn-inicio img{
+    width:50px;
+    border-radius:50px;
+    background:radial-gradient(rgb(1, 255, 1),rgb(0, 44, 0));
+}
+.btn-inicio img:hover{
+    border-radius:50px;
+    background:radial-gradient(rgb(73, 253, 73),rgb(1, 119, 1));
+}
+.btn-inicio img:active{
+    border-radius:50px;
+    background:radial-gradient(rgb(0, 15, 0),rgb(1, 97, 1));
+    box-shadow:greenyellow 0px 0px 40px;
+}
+
+/*BOTAO DE VOLTAR (NA PARTE DOS FILMES)*/
+
+/*NAV BAR EM CELULAR*/
+@media only screen and (max-width:390px){
+    .navbar{padding:0;min-width: 390px;justify-content: flex-start;width:100px;}
+    .ul_dos_links_da_navbar{display: none;}
+    .contato_e_loja{display: none;}
+    .logo{margin:20px 10px ;height:70px ;}
+    .logo h1{padding:5px 9px;font-size: 24px;}
+    .menu{margin:7px 0;display: block;overflow: hidden;}
+    .menu img{width:100px;}
+       /*FOOTER*/
+       .footer{
+        color:white;
+        display:flex;
+        justify-content:flex-end;
+        align-items: center;
+        height:50px;
+        min-width:390px;
+        background:#041B00;
+    }
+    .footer h1{
+        font-size:14px;
+    }
+    /*FOOTER*/
+    /*BOTAO PARA VOLTAR PRA CIMA*/
+    .btn-inicio{
+        position:absolute;
+        margin-top:0.75%;
+        left:1%;
+    }
+    .btn-inicio img{
+        width:40px;
+        border-radius:50px;
+        background:radial-gradient(rgb(1, 255, 1),rgb(0, 44, 0));
+    }
+    .btn-inicio img:hover{
+        border-radius:50px;
+        background:radial-gradient(rgb(73, 253, 73),rgb(1, 119, 1));
+    }
+    .btn-inicio img:active{
+        border-radius:50px;
+        background:radial-gradient(rgb(0, 15, 0),rgb(1, 97, 1));
+        box-shadow:greenyellow 0px 0px 40px;
+    }
+    /*BOTAO PARA VOLTAR PRA CIMA*/
+}
