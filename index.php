@@ -14,7 +14,7 @@
             <div class="logo"><h1>Shrek Museum</h1></div>
             <ul class="ul_dos_links_da_navbar">
                 <li><a class="links_da_navbar" href="#filmes" >Filmes</a></li>
-                <li><a class="links_da_navbar" href="memes.html">Memes</a></li>
+                <li><a class="links_da_navbar" href="memes.php">Memes</a></li>
                 <li><a class="links_da_navbar" href="#">Wallpapers</a></li>
                 <li><a class="links_da_navbar" href="#">Quiz do Shrek</a></li>
             </ul>
