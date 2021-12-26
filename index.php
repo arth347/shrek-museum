@@ -14,7 +14,7 @@
             <div class="logo"><h1>Shrek Museum</h1></div>
             <ul class="ul_dos_links_da_navbar">
                 <li><a class="links_da_navbar" href="#filmes" >Filmes</a></li>
-                <li><a class="links_da_navbar" href="memes.html">Memes</a></li>
+                <li><a class="links_da_navbar" href="memes.php">Memes</a></li>
                 <li><a class="links_da_navbar" href="#">Wallpapers</a></li>
                 <li><a class="links_da_navbar" href="#">Quiz do Shrek</a></li>
             </ul>
@@ -44,7 +44,7 @@
             <h1 class="titulo-apresentacao-do-personagem cx-texto-shrek">
                 Quem é Shrek?
             </h1>
-            <div class="cx-texto-apresentacao-do-personagem">
+            <div class="cx-texto-apresentacao-do-personagem cx-ajuste-shrek">
                 <h3 class="texto-apresentacao-do-personagem cx-texto-shrek">   
                        Shrek é um ogro verde, grande e forte. Todos tem medo dele por conta de sua aparência fora do padrão, as pessoas julgam ele por conta disso, pensando que ele oferece algum perigo, então ele se mantém isolado no pantano onde fica a casa dele, longe de todos, para poder viver em paz e livre dos comentarios maldozos da população. 
                 </h3>
