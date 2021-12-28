@@ -1,0 +1,11 @@
+
+#excluir-dps{padding:5%;background-image:radial-gradient(rgb(255, 0, 0),rgb(110, 0, 0));}
+
+/*CELULAR ---------------------------------------------------------------------*/
+@media (max-width:480px){
+    #excluir-dps{background-image:radial-gradient(rgb(255, 0, 0),rgb(110, 0, 0));height: 100vh;text-align:center;}
+    #excluir-dps h1{font-size: 100px!important; }
+    #excluir-dps h3{font-size: 25px!important;text-align:left;position:absolute;top:38%;left:15%;}
+    #excluir-dps p {font-size: 50px!important;}
+}
+/*CELULAR ---------------------------------------------------------------------*/

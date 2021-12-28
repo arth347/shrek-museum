@@ -5,9 +5,13 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
-
+@import url(//db.onlinewebfonts.com/c/2179845ee578cd3bb30b55dc922bfb38?family=Shrek);
+.fonte-do-shrek{
+    font-family: "Shrek"; src: url("//db.onlinewebfonts.com/t/2179845ee578cd3bb30b55dc922bfb38.eot"); src: url("//db.onlinewebfonts.com/t/2179845ee578cd3bb30b55dc922bfb38.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2179845ee578cd3bb30b55dc922bfb38.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2179845ee578cd3bb30b55dc922bfb38.woff") format("woff"), url("//db.onlinewebfonts.com/t/2179845ee578cd3bb30b55dc922bfb38.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2179845ee578cd3bb30b55dc922bfb38.svg#Shrek") format("svg"); 
+}
+a{text-decoration:none;}
 html{scroll-behavior:smooth;}
-body{background:#005819C7;overflow-x: hidden;}
+body{background:#005819C7!important;overflow-x: hidden;}
 li{list-style: none;}
 
 .navbar{
@@ -19,28 +23,25 @@ li{list-style: none;}
     background:#041B00;
 }
 
-.ul_dos_links_da_navbar{display: flex;align-items: center;}
+.navbar .ul_dos_links_da_navbar{display: flex;align-items: center;}
 
 
-.links_da_navbar{
+.navbar .links_da_navbar{
     transition:all 0.35s;
     padding-left:38px;
     font-weight:700;
     font-size:30px;
     color:white;
-    text-decoration: none;
+    
 }
 
-.links_da_navbar:hover{
+.navbar .links_da_navbar:hover{
     transition: all 0.35s;
     color:rgb(0, 255, 13);
     text-shadow: greenyellow 0px 0px 40px;
 }
 
-.links_da_navbar:active{
-    transition: all 0s;
-    color:rgb(13, 66, 0);
-}
+
 
 
 /*LOGO*/
@@ -52,13 +53,20 @@ li{list-style: none;}
     border:solid 6px #1B8600;
 }
 
+.logo:hover{
+    background-image: radial-gradient(#bdffad,#69ff43,#2d9e11);
+}
 
 .logo h1{
    font-size:40px;
    background: linear-gradient(to top, green,greenyellow);
    -webkit-background-clip: text;
    -webkit-text-fill-color:transparent;
-   
+}
+.logo:hover h1{
+    background: linear-gradient(to top, rgb(0, 185, 9),rgb(5, 150, 0));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color:transparent;
 }
 /*LOGO*/
 
@@ -120,9 +128,19 @@ li{list-style: none;}
 
 /*contato e loja*/
 
-/*MENU (ESCONDIDO)*/
-.menu{display: none;}
-/*MENU (ESCONDIDO)*/
+/*MENU (ESCONDIDO)-----------------------------------------------------*/
+.menu{
+    display:none;
+}
+
+#nav-mobile{
+   display:none;
+}
+.navbar-mobile{
+   display: none;
+    
+}
+/*MENU (ESCONDIDO)-----------------------------------------------------*/
 
 /*FOOTER*/
 .footer{
@@ -159,17 +177,76 @@ li{list-style: none;}
 
 /*BOTAO DE VOLTAR (NA PARTE DOS FILMES)*/
 
-/*NAV BAR EM CELULAR*/
+/*NAV BAR E FOOTER EM CELULAR*/
 @media only screen and (max-width:480px){
-    .navbar{padding:0;min-width:100%;justify-content: flex-start;width:100px;}
-    .ul_dos_links_da_navbar{display: none;}
-    .contato_e_loja{display: none;}
-    .logo{margin:20px 10px ;height:70px;width:220px;}
-    .logo h1{padding:5px 9px;font-size: 24px;}
-    .menu{margin:7px 0;margin-left:auto; display: block;overflow: hidden;}
+    .menu{
+        display:block;
+        margin:7px 0;
+        margin-left:auto; 
+        overflow: hidden;
+    }
     .menu img{width:100px;}
+    
+    #nav-mobile{
+        display:block;
+        position:absolute;
+        background:transparent;
+        width: 100%;
+        height: 100%;
+    }
+    .navbar-mobile{
+        display:block;
+        left:500px;
+        padding-left:10px;
+        position:absolute;
+        background: rgba(39, 122, 0, 0.342);
+        width: 100%;
+        height: 350px;
+        right:0px;
+        border-radius:0  0 30px 30px;
+        
+    }
+    .navbar-mobile .ul_dos_links_da_navbar a{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        margin-top:10px;
+        width: 100%;
+        padding: auto;
+        
+    }
+    .navbar-mobile .links_da_navbar{
+        color:rgb(255, 255, 255);
+        font-size:45px;
+        font-weight: 1000;
+    }
+    .navbar-mobile .links_da_navbar:active{
+        background-color: rgb(16, 141, 0);
+        color:rgb(170, 255, 162);
+        transition: all 0s;
+        
+    }
+    
+    .navbar{padding:0;min-width:100%;justify-content: flex-start;width:100px;}
+    .navbar .ul_dos_links_da_navbar{display: none;}
+    .navbar .contato_e_loja{display: none;}
+    .logo{margin:20px 10px ;height:70px;width:290px;}
+    .logo h1{padding:7px 9px;font-size: 26px;}
+    .menu{display:block;}
+
+
+    #nav-mobile:target{
+        transition:all 0.5s;
+        background:rgba(0, 0, 0, 0.63);
+    }
+    #nav-mobile:target .navbar-mobile{
+        transition:all 0.5s 1ms;
+        left:0%;
+        
+    }
+    
        /*FOOTER*/
-       .footer{
+    .footer{
         color:white;
         display:flex;
         justify-content:flex-end;
@@ -193,14 +270,6 @@ li{list-style: none;}
         border-radius:50px;
         background:radial-gradient(rgb(1, 255, 1),rgb(0, 44, 0));
     }
-    .btn-inicio img:hover{
-        border-radius:50px;
-        background:radial-gradient(rgb(73, 253, 73),rgb(1, 119, 1));
-    }
-    .btn-inicio img:active{
-        border-radius:50px;
-        background:radial-gradient(rgb(0, 15, 0),rgb(1, 97, 1));
-        box-shadow:greenyellow 0px 0px 40px;
-    }
+
     /*BOTAO PARA VOLTAR PRA CIMA*/
 }

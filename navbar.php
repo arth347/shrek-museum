@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//db.onlinewebfonts.com/c/2179845ee578cd3bb30b55dc922bfb38?family=Shrek" rel="stylesheet" type="text/css"/> 
     <link rel="stylesheet" href="css/navbar-e-footer.css">
-    <title>Memes</title>
+    <title>navbar-e-footer</title>
 </head>
 <body>
-    <header>
+<header>
         <nav class="navbar">
-            <div class="logo"><h1>Shrek Museum</h1></div>
+            <div class="logo"><a href="index.php"><h1 class="fonte-do-shrek">Shrek Museum</h1></a></div>
             <ul class="ul_dos_links_da_navbar">
-                <li><a class="links_da_navbar" href="index.php" >Inicio</a></li>
-                <li><a class="links_da_navbar" href="#">Memes</a></li>
-                <li><a class="links_da_navbar" href="#">Wallpapers</a></li>
-                <li><a class="links_da_navbar" href="#">Quiz do Shrek</a></li>
+                <li><a class="links_da_navbar" href="index.php#filmes">Filmes</a></li>
+                <li><a class="links_da_navbar" href="memes-e-wallpapers.php">Memes</a></li>
+                <li><a class="links_da_navbar" href="memes-e-wallpapers.php#wallpapers">Wallpapers</a></li>
+                <li><a class="links_da_navbar" href="quiz-do-shrek.php">Quiz do Shrek</a></li>
             </ul>
             <div>
                 <div class="contato_e_loja">
@@ -25,22 +26,23 @@
                 </div>
             </div>
 
-            <div class="menu"><a href="#"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzUycHQiIGhlaWdodD0iNzUycHQiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDc1MiA3NTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8cGF0aCBkPSJtNTQ0LjEyIDQwMi4wNWgtMzMxLjUxYy0xMy4yNjIgMC0yMy42OC0xMC40MTgtMjMuNjgtMjMuNjggMC0xMy4yNjIgMTAuNDE4LTIzLjY4IDIzLjY4LTIzLjY4aDMzMS41MWMxMy4yNjIgMCAyMy42OCAxMC40MTggMjMuNjggMjMuNjggMCAxMy4yNjItMTAuNDE4IDIzLjY4LTIzLjY4IDIzLjY4em0wLTExOC4zOWgtMzMxLjUxYy0xMy4yNjIgMC0yMy42OC0xMC40MTgtMjMuNjgtMjMuNjggMC0xMy4yNjIgMTAuNDE4LTIzLjY4IDIzLjY4LTIzLjY4aDMzMS41MWMxMy4yNjIgMCAyMy42OCAxMC40MTggMjMuNjggMjMuNjggMCAxMy4yNjItMTAuNDE4IDIzLjY4LTIzLjY4IDIzLjY4em0tMzMxLjUgMTg5LjQzaDMzMS41MWMxMy4yNjIgMCAyMy42OCAxMC40MTggMjMuNjggMjMuNjhzLTEwLjQxOCAyMy42OC0yMy42OCAyMy42OGgtMzMxLjUxYy0xMy4yNjIgMC0yMy42OC0xMC40MTgtMjMuNjgtMjMuNjhzMTAuNDE4LTIzLjY4IDIzLjY4LTIzLjY4eiIgZmlsbD0iI2ZmZiIgZmlsbC1ydWxlPSJldmVub2RkIi8+Cjwvc3ZnPgo="></a></div>
+            <div class="menu"><a href="#nav-mobile"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzUycHQiIGhlaWdodD0iNzUycHQiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDc1MiA3NTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8cGF0aCBkPSJtNTQ0LjEyIDQwMi4wNWgtMzMxLjUxYy0xMy4yNjIgMC0yMy42OC0xMC40MTgtMjMuNjgtMjMuNjggMC0xMy4yNjIgMTAuNDE4LTIzLjY4IDIzLjY4LTIzLjY4aDMzMS41MWMxMy4yNjIgMCAyMy42OCAxMC40MTggMjMuNjggMjMuNjggMCAxMy4yNjItMTAuNDE4IDIzLjY4LTIzLjY4IDIzLjY4em0wLTExOC4zOWgtMzMxLjUxYy0xMy4yNjIgMC0yMy42OC0xMC40MTgtMjMuNjgtMjMuNjggMC0xMy4yNjIgMTAuNDE4LTIzLjY4IDIzLjY4LTIzLjY4aDMzMS41MWMxMy4yNjIgMCAyMy42OCAxMC40MTggMjMuNjggMjMuNjggMCAxMy4yNjItMTAuNDE4IDIzLjY4LTIzLjY4IDIzLjY4em0tMzMxLjUgMTg5LjQzaDMzMS41MWMxMy4yNjIgMCAyMy42OCAxMC40MTggMjMuNjggMjMuNjhzLTEwLjQxOCAyMy42OC0yMy42OCAyMy42OGgtMzMxLjUxYy0xMy4yNjIgMC0yMy42OC0xMC40MTgtMjMuNjgtMjMuNjhzMTAuNDE4LTIzLjY4IDIzLjY4LTIzLjY4eiIgZmlsbD0iI2ZmZiIgZmlsbC1ydWxlPSJldmVub2RkIi8+Cjwvc3ZnPgo="></a></div>
+
+
+            
+            
         </nav>
-    </header>
-    <!--CONTEUDO COMEÇA APARTIR DAQUI-->
-    <img src="imagens/shrek.gif">
-   
-
-
-    <!--FOOTER-->
-    <footer class="footer">
-        <div class="btn-inicio">
-            <a href="#"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzUycHQiIGhlaWdodD0iNzUycHQiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDc1MiA3NTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8cGF0aCBkPSJtNjAwLjk1IDQ0Ny41MS04MS40NTcgODEuOTMtMTQzLjUtMTQzLjUtMTQzLjQ5IDE0My41LTgxLjQ1Ny04MS45MyAyMjQuOTUtMjI0Ljk1eiIgZmlsbD0iI2ZmZiIvPgo8L3N2Zz4K"></a> 
+        <div id="nav-mobile">
+            <div class="navbar-mobile">
+                <ul class="ul_dos_links_da_navbar">
+                    <li><a class="links_da_navbar" href="index.php#filmes">📺Filmes</a></li>
+                    <li><a class="links_da_navbar" href="memes-e-wallpapers.php">🤣Memes</a></li>
+                    <li><a class="links_da_navbar" href="memes-e-wallpapers.php#wallpapers">🎨Wallpapers</a></li>
+                    <li><a class="links_da_navbar" href="quiz-do-shrek.php">❓Quiz do Shrek</a></li>
+                </ul>
+            </div>
         </div>
-        <h1>
-            Créditos: Lucas nobre & Giovanni Del Chiaro&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        </h1>
-    </footer>
+    </header>
+
 </body>
 </html>
