@@ -267,9 +267,20 @@
     .ajuste-sobre-filme-shrek-2{left:0;margin-top:143.5%;height:49.4%!important;}
     .ajuste-sobre-filme-shrek-3{left:0;margin-top:273.5%;height:60.4%!important;}
 
+    .botao-assistir{
+        color: rgb(4, 37, 0);
+        border:solid 2px rgb(26, 90, 0);
+        border-radius: 100px;
+        font-weight: 1000;
+        background:radial-gradient(rgb(60, 255, 0),rgb(10, 119, 0));
+        font-size: 25px;
+        padding: 10px 15px;
+    }
+  
+    
     .posicao-botao-shrek1{margin-top:5%;}
     .posicao-botao-shrek2{margin-top: 2.5%;}
-    .posicao-botao-shrek3{margin-top: 7%;}
+    .posicao-botao-shrek3{margin-top: 5%;}
     .posicao-botao-shrek-para-sempre{margin-top:1%;margin-left:0;}
 
     .sobre-filme-shrek-para-sempre{
