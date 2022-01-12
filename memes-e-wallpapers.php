@@ -10,28 +10,31 @@
 <body>
     <?php include 'navbar.php'?>
     <!--CONTEUDO COMEÇA APARTIR DAQUI-->
-    <div class="bg">
-        <div class="vidro">
-            <section class="memes">
-                <div class="gifs--temporario--">
+    <div class="bg-parte1">
+        <div class="bg">
+                <img class="burro-memes" src="imagens/misc/burro.png">
+                <section id="memes">
                     <h1>Memes</h1>
-                    <img src="imagens/gifs/shrek1.gif">
-                    <img src="imagens/gifs/shrek2.gif">
-                    <img src="imagens/gifs/shrek3.gif">
-                    <img src="imagens/gifs/shrek4.gif">
-                    <img src="imagens/gifs/shrek5.gif">
-                    <img src="imagens/gifs/shrek6.gif">
-                </div>
-            </section>
-        
-            <section id="wallpapers">
-                <div class="wallpapers--temporario--">
+                    <div class="gifs--temporario--">
+                        
+                            <img src="imagens/gifs/shrek1.gif">
+                            <img src="imagens/gifs/shrek2.gif">
+                            <img src="imagens/gifs/shrek3.gif">
+                            <img src="imagens/gifs/shrek4.gif">
+                            <img src="imagens/gifs/shrek5.gif">
+                            <img src="imagens/gifs/shrek6.gif">
+                            
+                    </div>
+                </section>
+                <img class="fiona-wallpapers"src="imagens/misc/fiona.png">
+                <section id="wallpapers">
                     <h1>Wallpapers</h1>
-                    <img src="imagens/wallpapers/work-in-progress.jpg">
-                    <img src="imagens/wallpapers/work-in-progress.jpg">
-                
-                </div>
-            </section>
+                    <div class="wallpapers--temporario--">
+                        <img src="imagens/wallpapers/1.jpg">
+                        <img src="imagens/wallpapers/2.jpg">
+                    
+                    </div>
+                </section>
         </div>
     </div>
 
