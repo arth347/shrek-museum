@@ -10,12 +10,14 @@
 </head>
 <body>
     <?php include 'navbar.php'?>
+
     <!--CONTEUDO COMEÇA AQUI-->
+    
     <section id="telainicial">
         <img class="background-texto-img" src="imagens/background-texto.jpg">
-        <div class="caixa-verde-do-logo-do-shrek">
-            <img class="logo-shrek"src="imagens/logo-shrek.png">
-        </div>
+        
+            <img class="caixa-verde-do-logo-do-shrek logo-shrek"src="imagens/logo-shrek.png">
+        
     </section>
 
     <section id="Personagens">
