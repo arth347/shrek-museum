@@ -35,6 +35,7 @@ body{margin-top:100px;}
     width: 100%;
     height: 130px;
     justify-content: center;
+    z-index: 1;
 }
 .caixa-de-titulo h1{position:absolute;color:white;font-size: 80px;}
 .tamanho-background-personagens{width:100%;}
@@ -169,6 +170,24 @@ body{margin-top:100px;}
 /*TELAS MENORES*/
 
 /*CELULAR----------------------------------------------------------------------*/
+@media(max-width:1366px){
+    .caixa-verde-do-logo-do-shrek{
+        background-color:#005819C7;
+        border-radius:5000px;
+        width: 50%;
+        height:25% ;
+        
+    }
+    
+    .logo-shrek{
+        display: flex;
+        position:absolute;
+        top:50%;
+        left:17%;
+        width:900px; 
+        height:350px;
+    }
+}
 @media (max-width:480px){
     .background-texto-img{object-fit:cover;}
 
