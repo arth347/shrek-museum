@@ -29,13 +29,14 @@
             <div class="mobile-nav">
                 <input id="abrir"type="checkbox"> 
                  <label for="abrir" class="nav-mobile-imagem"></label>
-                  <ul class="ul_dos_links_da_navbar_mobile">
-                     <li class="decoracao-nav-mobile"><a href="index.php">Inicio</a></li>
-                     <li><a href="index.php#filmes">Filmes</a></li>
-                     <li class="decoracao-nav-mobile"><a href="memes-e-wallpapers.php#memes">Memes</a></li>
-                     <li><a href="memes-e-wallpapers.php#wallpapers">Wallpapers</a></li>
-                     <li class="decoracao-nav-mobile"><a href="quiz-do-shrek.php">Quiz do Shrek</a></li>
-                 </ul>
+                 <div class="fundo-escuro"></div>
+                     <ul class="ul_dos_links_da_navbar_mobile">
+                        <li><a href="index.php">Inicio</a></li>
+                        <li><a href="index.php#filmes">Filmes</a></li>
+                        <li><a href="memes-e-wallpapers.php#memes">Memes</a></li>
+                        <li><a href="memes-e-wallpapers.php#wallpapers">Wallpapers</a></li>
+                        <li><a href="quiz-do-shrek.php">Quiz do Shrek</a></li>
+                    </ul>
             </div>
 
 

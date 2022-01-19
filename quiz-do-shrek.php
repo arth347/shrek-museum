@@ -20,21 +20,21 @@
        <div class="caixa-quiz quiz-conhece">
            <div class="correcao-para-leitura">
                <h1>Quando do Shrek você conhece?</h1>
-               <h3>descubra o quando você conhece do shrek!</h3>
+               
             </div>
                <a href="#"><button class="btn-iniciar-conhece btn-iniciar">Iniciar Quiz</button></a>
        </div>
        <div class="caixa-quiz quiz-amor">
            <div class="correcao-para-leitura">
                <h1>Qual seria seu par amoroso em Shrek?</h1>
-               <h3>descubra qual seria seu par amoroso no universo de Shrek!</h3>
+               
             </div>
                <a href="#"><button class="btn-iniciar-amor btn-iniciar">Iniciar Quiz</button></a>
        </div>
        <div class="caixa-quiz quiz-quem">
            <div class="correcao-para-leitura">
                <h1>Quem você seria em Shrek?</h1>
-               <h3>descubra quem você seria no universo de conto de fadas do Shrek!</h3>
+               
             </div>
                <a href="#"><button class="btn-iniciar-quem btn-iniciar">Iniciar Quiz</button></a>
        </div>

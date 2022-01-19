@@ -22,6 +22,7 @@ body{margin-top:100px;}
     top:50%;
     left:27%;
     width:900px; 
+    height:350px;
 }
 
 /*APREZENTAÇÃO DO SHREK*/
@@ -104,10 +105,10 @@ body{margin-top:100px;}
 
 
 /*FILMES*/
-.background-filmes-shrek-1-2-3{width:33%;height:900px;}
-.background-filme-shrek-para-sempre{width:100%;height:900px;object-fit:cover;object-position:center;}
+.background-filmes-shrek-1-2-3{width:33%;height:900px;-webkit-filter:blur(3px);}
+.background-filme-shrek-para-sempre{width:100%;height:900px;object-fit:cover;object-position:center;-webkit-filter:blur(3px);}
 .sobre-filme-shrek-1-2-3{
-    
+    z-index: 1;
     position:absolute;
     margin-top:12% ;
     margin-left:1.5%;
@@ -122,7 +123,7 @@ body{margin-top:100px;}
 .ajuste-sobre-filme-shrek-3{left:66.5%;}
 
 .sobre-filme-shrek-para-sempre{
-    
+    z-index: 1;
     position:absolute;
     margin-top: 9%;
     width:100%;
@@ -168,7 +169,7 @@ body{margin-top:100px;}
 /*TELAS MENORES*/
 
 /*CELULAR----------------------------------------------------------------------*/
-@media only screen and (max-width:480px){
+@media (max-width:480px){
     .background-texto-img{object-fit:cover;}
 
     .caixa-verde-do-logo-do-shrek{
@@ -325,7 +326,7 @@ body{margin-top:100px;}
 
 /*CELULAR----------------------------------------------------------------------*/
 /* CORREÇÃO PARA TELAS DE CELULAR A10*/
-@media (max-width:360px){
+@media (max-width:720px){
     .background-texto-img{object-fit:cover;}
 
     .caixa-verde-do-logo-do-shrek{
@@ -340,7 +341,7 @@ body{margin-top:100px;}
         display:flex;
         position:absolute;
         top:50%;
-        left:2.5%;
+        left:9%;
         width:340px; 
         height:150px;
     }
@@ -359,12 +360,13 @@ body{margin-top:100px;}
     .sobre-personagem{
         position: absolute;
         margin-top:50% ;
-        background: #2980008A;
         width: 100%;
-        height: 550px;
+        height: 475px;
     }
-    .burro{background:#8C3B00AB ;}
-    .fiona{background:#06BAE18A ;}
+
+    .shrek{background:#2980008A ;}
+    .burro{background:#8C3B00AB ;height:375px;}
+    .fiona{background:#06BAE18A ;height:435px;}
 
     .personagem-shrek{
         position:absolute;
@@ -402,11 +404,12 @@ body{margin-top:100px;}
         font-weight: 1000!important;
         color:white;
         font-size: 35px;
-        margin-top:35%;
+        margin-top:25%;
         text-align:center;
     }
     .texto-apresentacao-do-personagem{
-        text-align:center;
+        text-indent: 40px;
+        text-align:left;
         color:white;
         font-size: 20px;
     }
@@ -414,12 +417,12 @@ body{margin-top:100px;}
         width: 75%;
     }
     .cx-ajuste-shrek{width:95%;}
-    .cx-texto-shrek{margin-left:5%;width:320px;}
+    .cx-texto-shrek{margin-left:12%;width:320px;}
     .cx-texto-burro{margin-left:12%;}
     .cx-texto-fiona{margin-left:12%;}
     .cx-titulo-ajuste{text-align:center;margin-bottom:20px;}
 
-    .cx-titulo-ajuste{margin-left: 0%;margin-bottom: 2%;}
+    .cx-titulo-ajuste{margin-left: 0%;margin-bottom: 4%;}
     .cx-titulo-ajuste-burro{margin-left: 0%;margin-bottom: 2%;}
     .cx-titulo-ajuste-fiona{margin-left: 0%;margin-bottom: 2%;}
 
@@ -436,9 +439,9 @@ body{margin-top:100px;}
         background:#011301B0;
     }
 
-    .ajuste-sobre-filme-shrek-1{left:0;margin-top:22.3%;height: 50% !important;}
-    .ajuste-sobre-filme-shrek-2{left:0;margin-top:143.5%;height:57.4%!important;}
-    .ajuste-sobre-filme-shrek-3{left:0;margin-top:273.5%;height:62.4%!important;}
+    .ajuste-sobre-filme-shrek-1{left:0;margin-top:22.3%;height: 46% !important;}
+    .ajuste-sobre-filme-shrek-2{left:0;margin-top:143.5%;height:50%!important;}
+    .ajuste-sobre-filme-shrek-3{left:0;margin-top:273.5%;height:61%!important;}
 
     .botao-assistir{
         color: rgb(4, 37, 0);
@@ -449,7 +452,7 @@ body{margin-top:100px;}
         font-size: 25px;
         padding: 10px 15px;
     }
-  
+    
     
     .posicao-botao-shrek1{margin-top:5%;}
     .posicao-botao-shrek2{margin-top: 7%;}
@@ -463,16 +466,16 @@ body{margin-top:100px;}
         left:5%;
         border-radius: 10px;
         background:#011301B0;
-        height:53.1%;
+        height:55%;
     }
     .config-texto-filmes{color:white;font-size: 15px;text-align: center;}
     .cx-texto-filmes-shrek-1-2{width:80%;margin-top:3%;}
     .cx-texto-filme-shrek-3{width:80%;margin-top:3%;}
     .cx-texto-filme-shrek-para-sempre{width:80%;margin-top:3%;margin-left:10%;}
 
-    .config-titulo-filmes-shrek-1-2{text-decoration:underline;font-size:30px;margin-top: 3%;font-weight: 1000;}
-    .config-titulo-filme-shrek-3{text-decoration:underline;font-size:30px;margin-top: 10%;font-weight: 1000;}
-    .config-titulo-filme-shrek-para-sempre{text-decoration:underline; margin-top:1%;font-size:30px;font-weight: 1000;}
+    .config-titulo-filmes-shrek-1-2{text-decoration:underline;font-size:30px;margin-left:-25px;margin-top: 3%;font-weight: 1000;}
+    .config-titulo-filme-shrek-3{text-decoration:underline;font-size:30px;margin-left:-25px;margin-top: 10%;font-weight: 1000;}
+    .config-titulo-filme-shrek-para-sempre{text-decoration:underline; margin-top:10%;font-size:30px;font-weight: 1000;}
 
 }
 /* CORREÇÃO PARA TELAS DE CELULAR A10*/
